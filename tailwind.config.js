@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         montserrat: ['var(--font-montserrat'],
+      },
+      gridTemplateColumns: {
+        fluid: 'repeat(auto-fit,minmax(15rem,1fr))'  // this is a custom class; we can call it with className="grid-cols-fluid"
       }
     },
   },

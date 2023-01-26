@@ -7,10 +7,10 @@ import Movie from "./Movie"
 export default async function Home() {
   const data = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}`)
   const res = await data.json()
-  console.log(res)
+  // console.log(res)
   return (
     <main>
-      <h1 className="text-lg py-2 m-4">Hello</h1>
+      {/* <h1 className="text-lg py-2 m-4">Hello</h1> */}
       <div className="grid gap-16 grid-cols-fluid">
         {res.results.map((movie) => (
           <Movie 

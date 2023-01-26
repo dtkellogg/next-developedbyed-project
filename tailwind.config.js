@@ -9,6 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    // textColor: {  // This wasn't part of the tutorial... just trying to make text-white work
+    //   primary: "#FFF",
+    //   secondary: "#FFF",
+    //   white: "#FFF",
+    //   black: "#000",
+    // },
     extend: {
       fontFamily: {
         montserrat: ['var(--font-montserrat'],

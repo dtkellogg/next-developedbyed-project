@@ -1,0 +1,17 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "terminal.integrated.enablePersistentSessions": false,
+  "emmet.preferences": {
+
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {"*html": "html"},
+  "emmet.useInlineCompletions": true
+}

@@ -16,11 +16,8 @@ module.exports = {
       gridTemplateColumns: {
         fluid: 'repeat(auto-fit,minmax(15rem,1fr))'  // this is a custom class; we can call it with className="grid-cols-fluid"
       },
-      colors: {  // This wasn't part of the tutorial... just trying to make text-white work
-        primary: "#FFF",
-        secondary: "#FFF",
-        "white": "#FFF",
-        black: "#000",
+      colors: {
+        white: '#fff'
       },
     },
   },

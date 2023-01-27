@@ -10,7 +10,7 @@ export async function generateStaticParams() {
   }))
 }
 
-export default async function MovieDetail({params}) {
+export default async function MovieDetail({ params }) {
   console.log(params)
   const imagePath = 'https://image.tmdb.org/t/p/original'
   const data = await fetch(`https://api.themoviedb.org/3/movie/${params.movie}?api_key=${process.env.API_KEY}`, {next: {revalidate: 60}})  // after every 60sec, it will refetch

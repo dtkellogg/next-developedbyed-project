@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head />
-      <body className={`${montserrat.className} mx-32 my-12`}>
+      <body className={`${montserrat.className} mx-32 my-12 bg-black text-white`}>
         {/* <nav>
           <ul className="font-montserrat">
             <li>Home</li>
